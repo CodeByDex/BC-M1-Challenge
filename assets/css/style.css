@@ -1,3 +1,7 @@
+/**
+    This is the style sheet used for the Horiseon companies extranet pages
+*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,13 +12,17 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Begin Header section styles */
+/* ==========================================================================
+   Header Section Styles
+   ========================================================================== */
 
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    position: fixed;
+    width: 100%;
 }
 
 header h1 {
@@ -56,9 +64,13 @@ nav a {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    position: fixed;
+    z-index: -1;
 }
 
-/* Main section styles */
+/* ==========================================================================
+   Main section styles
+   ========================================================================== */
 
 p {
     font-size: 16px;
@@ -78,6 +90,7 @@ main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    margin-top: 825px;
 }
 
 main article {
@@ -98,10 +111,13 @@ main article img {
     max-height: 200px;
 }
 
-/* Aside Section Styles */
+/* ==========================================================================
+   Aside section styles
+   ========================================================================== */
 
 aside {
     margin-right: 20px;
+    margin-top: 825px;
     padding: 20px;
     clear: both;
     float: right;
@@ -127,7 +143,9 @@ aside article img {
     max-width: 150px;
 }
 
-/* Foot section styles */
+/* ==========================================================================
+   Footer section Styles
+   ========================================================================== */
 
 footer {
     padding: 30px;
