@@ -64,8 +64,6 @@ nav a {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-    position: fixed;
-    z-index: -1;
 }
 
 /* ==========================================================================
@@ -90,7 +88,6 @@ main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-    margin-top: 825px;
 }
 
 main article {
@@ -117,7 +114,6 @@ main article img {
 
 aside {
     margin-right: 20px;
-    margin-top: 825px;
     padding: 20px;
     clear: both;
     float: right;
